@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+
+.welcome-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e1;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome-page img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome-page h1{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: black;
+    margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome-page p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    color: black;
+    margin-top: 10px;
+    max-width: 420px;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-page-button-container{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    
+} 
+
+.how-to-play,
+.log-in{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: black;
+    background-color: transparent;
+    border-radius: 18px;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start-game{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 18px;
+    border: 1px solid black;
+    margin-top: 10px;
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
 }
+
+.how-to-play:hover,
+.log-in:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+
+.welcome-page-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-page-footer h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+.welcome-page-footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+
