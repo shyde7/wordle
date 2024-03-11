@@ -38,6 +38,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    -webkit-line-clamp: 2px !important;
     width: 30%;
     
 } 
@@ -48,7 +49,7 @@
     font-size: 1rem;
     color: black;
     background-color: transparent;
-    border-radius: 18px;
+    border-radius: 30px;
     border: 1px solid black;
     margin-top: 10px;
     height: 50px;
@@ -56,12 +57,13 @@
     cursor: pointer;
 }
 
+
 .start-game{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: white;
     background-color: black;
-    border-radius: 18px;
+    border-radius: 30px;
     border: 1px solid black;
     margin-top: 10px;
     height: 50px;
